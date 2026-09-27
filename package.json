@@ -1,0 +1,74 @@
+{
+  "name": "bjj-scoreboard",
+  "version": "0.1.0",
+  "description": "A free IBJJF BJJ scoreboard web component with points, advantages, penalties, automatic tiebreaks, and a match clock. One script tag, no framework, no dependencies.",
+  "keywords": [
+    "bjj",
+    "brazilian-jiu-jitsu",
+    "jiu-jitsu",
+    "scoreboard",
+    "ibjjf",
+    "grappling",
+    "tournament",
+    "web-component",
+    "custom-element",
+    "match-timer"
+  ],
+  "homepage": "https://grappleflows.com/bjj-scoreboard",
+  "bugs": {
+    "url": "https://github.com/GrappleFlows/bjj-scoreboard/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrappleFlows/bjj-scoreboard.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Grapple Flows",
+    "url": "https://grappleflows.com"
+  },
+  "type": "module",
+  "main": "./dist/bjj-scoreboard.js",
+  "module": "./dist/bjj-scoreboard.js",
+  "types": "./dist/index.d.ts",
+  "unpkg": "./dist/bjj-scoreboard.min.js",
+  "jsdelivr": "./dist/bjj-scoreboard.min.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/bjj-scoreboard.js"
+    },
+    "./scoring": {
+      "types": "./dist/scoring.d.ts",
+      "import": "./dist/scoring.js"
+    },
+    "./min": "./dist/bjj-scoreboard.min.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "src",
+    "LICENSE"
+  ],
+  "sideEffects": [
+    "./dist/bjj-scoreboard.js",
+    "./dist/bjj-scoreboard.min.js",
+    "./src/index.ts"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs && tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.4",
+    "esbuild": "^0.28.2",
+    "happy-dom": "^20.14.5",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.2"
+  }
+}
