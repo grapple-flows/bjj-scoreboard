@@ -4,6 +4,8 @@ A free IBJJF BJJ scoreboard web component with points, advantages, penalties, au
 
 Made by [Grapple Flows](https://grappleflows.com). Use it hosted at [grappleflows.com/bjj-scoreboard](https://grappleflows.com/bjj-scoreboard), or put it on your own site.
 
+![bjj-scoreboard web component mid-match: points, advantages, and penalties for two competitors with a purple belt match clock](https://raw.githubusercontent.com/GrappleFlows/bjj-scoreboard/main/docs/screenshot.png)
+
 `<bjj-scoreboard>` is a standard custom element. It works in any page or framework (plain HTML, WordPress, Squarespace code blocks, React, Vue, Svelte, Astro) with one script tag, has no runtime dependencies, and ships TypeScript types. The scoring rules are also exported as plain functions, so you can use them without the UI.
 
 ## Quick start
