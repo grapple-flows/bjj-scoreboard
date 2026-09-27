@@ -16,11 +16,11 @@
   ],
   "homepage": "https://grappleflows.com/bjj-scoreboard",
   "bugs": {
-    "url": "https://github.com/GrappleFlows/bjj-scoreboard/issues"
+    "url": "https://github.com/grapple-flows/bjj-scoreboard/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GrappleFlows/bjj-scoreboard.git"
+    "url": "git+https://github.com/grapple-flows/bjj-scoreboard.git"
   },
   "license": "MIT",
   "author": {

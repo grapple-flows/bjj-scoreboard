@@ -4,7 +4,7 @@ A free IBJJF BJJ scoreboard web component with points, advantages, penalties, au
 
 Made by [Grapple Flows](https://grappleflows.com). Use it hosted at [grappleflows.com/bjj-scoreboard](https://grappleflows.com/bjj-scoreboard), or put it on your own site.
 
-![bjj-scoreboard web component mid-match: points, advantages, and penalties for two competitors with a purple belt match clock](https://raw.githubusercontent.com/GrappleFlows/bjj-scoreboard/main/docs/screenshot.png)
+![bjj-scoreboard web component mid-match: points, advantages, and penalties for two competitors with a purple belt match clock](https://raw.githubusercontent.com/grapple-flows/bjj-scoreboard/main/docs/screenshot.png)
 
 `<bjj-scoreboard>` is a standard custom element. It works in any page or framework (plain HTML, WordPress, Squarespace code blocks, React, Vue, Svelte, Astro) with one script tag, has no runtime dependencies, and ships TypeScript types. The scoring rules are also exported as plain functions, so you can use them without the UI.
 
@@ -294,9 +294,9 @@ The scoring logic in `src/scoreboard.ts` is ported from the Grapple Flows app, w
 
 ## Related
 
-- [bjj-timer](https://github.com/GrappleFlows/bjj-timer): BJJ round timer web component.
-- [bjj-bracket](https://github.com/GrappleFlows/bjj-bracket): tournament bracket generator.
-- [bjj-data](https://github.com/GrappleFlows/bjj-data): IBJJF and ADCC weight classes, legal techniques, belt requirements, and a position vocabulary as JSON and TypeScript.
+- [bjj-timer](https://github.com/grapple-flows/bjj-timer): BJJ round timer web component.
+- [bjj-bracket](https://github.com/grapple-flows/bjj-bracket): tournament bracket generator.
+- [bjj-data](https://github.com/grapple-flows/bjj-data): IBJJF and ADCC weight classes, legal techniques, belt requirements, and a position vocabulary as JSON and TypeScript.
 
 ## About Grapple Flows
 
